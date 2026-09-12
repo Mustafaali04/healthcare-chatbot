@@ -1,7 +1,8 @@
-﻿import streamlit as st
+﻿import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+import streamlit as st
 from chatbot import chatbot_response
-from sentiment import analyze_reviews, get_wordcloud_figure
-
+from sentiment import analyze_reviews, get_wordcloud_figureimport streamlit as st
 st.set_page_config(page_title="Healthcare Chatbot", page_icon="🩺", layout="wide")
 
 st.markdown("""
