@@ -1,0 +1,7 @@
+﻿venv/
+__pycache__/
+*.pyc
+.env
+output.txt
+wordcloud_positive.png
+wordcloud_negative.png

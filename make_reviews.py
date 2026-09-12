@@ -1,0 +1,26 @@
+reviews = [
+    "The doctors were amazing and I felt so cared for throughout my stay.",
+    "I waited over 4 hours in the ER and nobody explained what was happening.",
+    "The nurse was very kind and checked on me regularly during recovery.",
+    "Billing was confusing and customer service was unhelpful when I called.",
+    "I am grateful for the quick diagnosis and treatment I received.",
+    "The hospital was clean but the food was terrible.",
+    "My surgeon explained everything clearly and I felt confident going into the operation.",
+    "I had to repeat my symptoms to three different staff members which was frustrating.",
+    "The physical therapy team helped me recover faster than expected.",
+    "Parking was a nightmare and the signage in the hospital was confusing.",
+    "The pediatric ward staff were wonderful with my daughter during her checkup.",
+    "I felt rushed during my appointment and had no time to ask questions.",
+    "Telehealth consultation was smooth and saved me a trip to the clinic.",
+    "The medication instructions given at discharge were unclear.",
+    "Overall a positive experience, the staff went above and beyond for my family."
+]
+
+import csv
+with open("data/reviews.csv", "w", newline="", encoding="utf-8")as f:
+    writer = csv.writer(f)
+    writer.writerow(["review"])
+    for r in reviews:
+        writer.writerow([r])
+
+print("Done! Wrote", len(reviews), "reviews.")
