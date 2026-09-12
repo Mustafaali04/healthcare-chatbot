@@ -1,8 +1,6 @@
 <div align="center">
 
-# 🩺 Healthcare Chatbot
-
-### An AI-powered chatbot with retrieval-augmented answers and patient sentiment analysis
+![Healthcare Chatbot Banner](assets/banner.png)
 
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -73,16 +71,18 @@ A conversational AI chatbot that answers health-related questions using **Retrie
 
 ```
 healthcare-chatbot/
+├── assets/
+│   └── banner.png            # README banner
 ├── app/
-│   └── streamlit_app.py     # Main Streamlit UI (chatbot + dashboard tabs)
+│   └── streamlit_app.py      # Main Streamlit UI (chatbot + dashboard tabs)
 ├── data/
-│   ├── diseases.csv         # Knowledge base: 10 diseases × symptoms/treatment/prevention
-│   └── reviews.csv          # Sample patient reviews for sentiment analysis
-├── chatbot.py                # RAG logic: retrieval + LLM prompting
-├── load_data.py               # Data loading and keyword search
-├── sentiment.py               # VADER sentiment analysis + word cloud generation
+│   ├── diseases.csv          # Knowledge base: 10 diseases × symptoms/treatment/prevention
+│   └── reviews.csv           # Sample patient reviews for sentiment analysis
+├── chatbot.py                 # RAG logic: retrieval + LLM prompting
+├── load_data.py                # Data loading and keyword search
+├── sentiment.py                # VADER sentiment analysis + word cloud generation
 ├── requirements.txt
-└── .env                       # API key (not committed)
+└── .env                        # API key (not committed)
 ```
 
 ---
