@@ -7,7 +7,7 @@
 [![OpenRouter](https://img.shields.io/badge/LLM-OpenRouter-6366F1?style=flat)](https://openrouter.ai/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[**🔗 Live Demo**](#) · [**🐛 Report Bug**](https://github.com/Mustafaali04/healthcare-chatbot/issues) · [**💡 Request Feature**](https://github.com/Mustafaali04/healthcare-chatbot/issues)
+[**🔗 Live Demo**](https://healthcare-chatbot-ksg4af2jk9ucjevdlfhaxt.streamlit.app/) · [**🐛 Report Bug**](https://github.com/Mustafaali04/healthcare-chatbot/issues) · [**💡 Request Feature**](https://github.com/Mustafaali04/healthcare-chatbot/issues)
 
 </div>
 
