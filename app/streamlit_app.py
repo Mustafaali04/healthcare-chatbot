@@ -1,4 +1,6 @@
-﻿import streamlit as st
+﻿import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))import streamlit as st
 from chatbot import chatbot_response
 from sentiment import analyze_reviews, get_wordcloud_figure
 st.set_page_config(page_title="Healthcare Chatbot", page_icon="🩺", layout="wide")
